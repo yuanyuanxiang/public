@@ -7,7 +7,7 @@
 
 #ifdef _WIN32
 
-#include <afx.h>
+#include <atlstr.h>
 
 #pragma once
 

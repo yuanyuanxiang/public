@@ -5,12 +5,6 @@
 
 #include "CodeTransform.h"
 
-#ifdef _DEBUG
-#define new DEBUG_NEW
-#undef THIS_FILE
-static char THIS_FILE[] = __FILE__;
-#endif
-
 #ifndef SAFE_DELETE
 #define SAFE_DELETE(p) if((p) != NULL){ delete [] (p); (p) = NULL; }/**< °²È«É¾³ýÖ¸Õëp */
 #endif
