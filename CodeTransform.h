@@ -7,7 +7,12 @@
 
 #ifdef _WIN32
 
+#ifndef _WINDOWS // MFC
 #include <atlstr.h>
+using namespace ATL;
+#else
+#include <afx.h>
+#endif
 
 #pragma once
 
